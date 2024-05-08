@@ -18,6 +18,7 @@ export function isStrongPassword(password) {
   return pwRegex.test(password);
 }
 
+
 // 	This regular expressions matches dates of the form XX / XX / YYYY where
 // XX can be 1 or 2 digits long and YYYY is always 4 digits long.
 export function isDate(date) {
@@ -30,3 +31,4 @@ export function isHexColor(color) {
   const colorRegex = /^\#?[A-Fa-f0-9]{3}([A-Fa-f0-9]{3})?$/;
   return colorRegex.test(color);
 }
+
